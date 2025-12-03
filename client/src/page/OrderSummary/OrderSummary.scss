@@ -1,0 +1,77 @@
+.order-summary {
+  max-width: 600px;
+  margin: 70px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+ 
+  font-family: "Cairo", sans-serif;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+
+    h4 {
+      margin: 0;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 5px 0;
+      color: #555;
+    }
+  }
+
+  .total {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+
+    h3 {
+      color: #000;
+    }
+
+    p {
+      margin: 6px 0;
+    }
+  }
+
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #ffa41c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:disabled {
+      background: #aaa;
+    }
+  }
+
+  .message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+  }
+
+  .order-id {
+    text-align: center;
+    margin-top: 10px;
+    color: #444;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,77 @@
+.checkout-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .checkout-container {
+    display: flex;
+    gap: 2rem;
+
+    .checkout-left,
+    .checkout-right {
+      flex: 1;
+      background-color: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .checkout-left {
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        input, select, textarea {
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+        }
+
+        textarea {
+          resize: none;
+          height: 100px;
+        }
+
+        .payment-method {
+          display: flex;
+          gap: 1rem;
+          label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .checkout-right {
+      .cart-item {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        align-items: center;
+
+        img {
+          width: 80px;
+          height: 80px;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+
+      h3 {
+        margin-top: 2rem;
+        text-align: right;
+      }
+    }
+  }
+}

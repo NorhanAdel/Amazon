@@ -1,0 +1,81 @@
+.buynow_page {
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+  top: 60px;
+  background-color: #eaeded !important;
+  .buynow_container {
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    .left_buy {
+      flex: 4;
+      background-color: #fff;
+      padding: 10px 20px;
+      border-radius: 2px;
+      margin-left: 15px;
+      .subTotal_title {
+        padding: 10px 2px;
+        text-align: right;
+      }
+      h1 {
+        font-weight: 500;
+        font-size: 28px;
+      }
+      .sel {
+        font-size: 14px;
+        margin: 5px auto;
+        color: #007185;
+        font-weight: 500;
+      }
+      .leftPrice {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .item_container {
+        padding: 20px 2px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .item_details {
+          width: 50%;
+          color: #000;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          h3 {
+            font-weight: 500;
+          }
+          p {
+            font-size: 12px;
+            color: rgb(87, 85, 85);
+            font-weight: 500;
+          }
+          .unusuall {
+            color: #ffa41c;
+            font-weight: 500;
+          }
+        }
+        .price {
+          display: flex;
+          align-items: flex-start;
+          font-weight: 500;
+        }
+      }
+    }
+    .right_buy {
+      margin-right: 80px;
+      flex: 1;
+      margin-left: 50px;
+      background-color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      height: 300px;
+    }
+  }
+}
