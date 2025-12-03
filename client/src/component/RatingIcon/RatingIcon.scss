@@ -1,0 +1,27 @@
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 5px;
+
+  .stars {
+    display: flex;
+    gap: 2px;
+
+    span {
+      color: #ff9900;
+      font-size: 14px;
+    }
+  }
+
+  .average {
+    font-weight: bold;
+    font-size: 14px;
+    color: #111;
+  }
+
+  .total {
+    color: #555;
+    font-size: 12px;
+  }
+}

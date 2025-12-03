@@ -1,0 +1,26 @@
+.subtotal {
+  .cost_right {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .buy_process {
+      background-color: #ffa41c;
+      letter-spacing: 0.5px;
+      font-size: 13px;
+      color: #0f1111;
+      font-weight: 500;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding: 4px 2px;
+      width: 100%;
+      margin: 10px 0;
+    }
+    .emi {
+      width: 100%;
+      border: 1px solid rgb(225, 223, 223);
+      padding: 5px;
+    }
+  }
+}

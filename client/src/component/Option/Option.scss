@@ -1,0 +1,15 @@
+.add_remove_sellect {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  select {
+    width: 50px;
+    padding: 3px 5px;
+    outline: none;
+
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.17);
+  }
+}

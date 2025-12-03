@@ -1,0 +1,23 @@
+ 
+  .swiper-button-next,
+  .swiper-button-prev {
+    background: #fff;
+    color: #494949;
+    border-radius: 0;
+    font-size: 20px;
+    width: 50px;
+    padding: 10px;
+    height: 90px;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .swiper-button-next {
+    right: 10px;
+  }
+
+  .swiper-button-prev {
+    left: 10px;
+  }
